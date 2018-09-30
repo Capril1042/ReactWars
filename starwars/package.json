@@ -14,5 +14,8 @@
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -d build"
   },
-  "homepage": "https://Capril1042.github.io/ReactWars"
+  "homepage": "https://Capril1042.github.io/ReactWars",
+  "devDependencies": {
+    "gh-pages": "^2.0.0"
+  }
 }
