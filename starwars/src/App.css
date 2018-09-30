@@ -6,3 +6,65 @@
   text-shadow: 1px 1px 5px rgb(12, 1, 26);
 }
 /* write your parent styles in here for your App.js */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('./sw-bg.jpg');
+  background-repeat: repeat
+}
+.Cards {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.char-container {
+  width: 20vw;
+  height:45vh;
+  background-color: rgb(255, 255, 255, 0.4);
+  margin:5%;
+  border:3px solid #4da6ff;
+  border-radius:5px;
+     
+ }
+
+ .container-header, .container-footer{
+   width:100%;
+   margin-top:0;
+   padding-top:2%; 
+   padding-bottom:1%;
+   height:8vh;
+ }
+
+.container-header {
+   border-bottom:1px solid rgb(0, 0, 0, 0.2 );
+}
+ .container-footer {
+   border-top:rgb(0, 0, 0, 0.9);
+   margin-bottom:0;
+   padding-bottom:1%;
+   border-top:1px solid rgb(0, 0, 0, 0.2 );
+ }
+ .char-info {
+   display:flex;
+   text-align: left; 
+   height:26vh;
+ }
+
+ .char-info-section {
+   padding:1%;
+   margin:2%;
+   width:50%;
+ }
+
+ h3 {
+  color:#cc0000;
+ }
+
+h4 {
+   color:#660066;
+}
+ span {
+   color:#006600;
+ }
